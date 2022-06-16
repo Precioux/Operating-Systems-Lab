@@ -1,0 +1,1 @@
+cmd_/home/samin/Desktop/test/simple.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/samin/Desktop/test/simple.ko /home/samin/Desktop/test/simple.o /home/samin/Desktop/test/simple.mod.o;  true
